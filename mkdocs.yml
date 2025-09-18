@@ -2,6 +2,8 @@ site_name: Semaphore Mobile Development Architecture — 2025
 site_description: Client Documentation
 theme:
   name: material
+  logo: img/sema-red-logo.png
+  favicon: img/sema-red-logo.png
   features:
     - navigation.sections
     - navigation.tabs
@@ -24,6 +26,7 @@ nav:
   - Deployment: deployment.md
   - Source Control: source-code-management.md
   - Server Hosting: server-hosting.md
+  - Continuous Integration: continuous-integration.md
   - Full Dev Cycle: dev-cycle.md
 markdown_extensions:
   - admonition

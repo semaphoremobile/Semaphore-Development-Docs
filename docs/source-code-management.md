@@ -1,10 +1,10 @@
 # Source Code Management
 
-We use [Git](https://git-scm.com/) with repositories hosted on [GitHub](https://github.com/).
+We use private [Git](https://git-scm.com/) repositories hosted on [GitHub](https://github.com/).
 
-Git tracks all changes over time and supports check-in, check-out, roll-back, and merging.
+Git tracks all of our code changes over time and supports check-in, check-out, roll-back, and merging.
 
-**Common commands:**
+## Common Git Commands
 ```bash
 # clone repository
 git clone git@github.com:git-username/git-project.git
@@ -36,3 +36,11 @@ git log --oneline --graph --decorate --all
 # delete feature branch after PR merge to main
 git push origin --delete feature/deployment-scripts
 ```
+
+## Security Checks
+
+### Github Dependabot
+
+We utilize Github Dependabot to do security checks on all our framework packages.
+
+![Development Lifecycle Diagram](img/dependabot.png)
