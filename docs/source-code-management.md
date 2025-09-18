@@ -28,8 +28,11 @@ git add directory/ path/to/filename
 git commit -m "Added Capistrano deployment scripts"
 
 # push local commits to GitHub
-git push -u origin main
+git push -u origin feature/deployment-scripts
 
 # view commit history
 git log --oneline --graph --decorate --all
+
+# delete feature branch after PR merge to main
+git push origin --delete feature/deployment-scripts
 ```
