@@ -1,0 +1,31 @@
+site_name: Semaphore Mobile Development Architecture — 2025
+site_description: Client Documentation
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.tabs
+    - content.code.copy
+    - search.suggest
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+plugins:
+  - search
+nav:
+  - Home: index.md
+  - Architecture: architecture-overview.md
+  - Deployment: deployment.md
+  - Source Control: source-code-management.md
+  - Server Hosting: server-hosting.md
+  - Full Dev Cycle: dev-cycle.md
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
