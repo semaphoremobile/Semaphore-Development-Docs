@@ -1,0 +1,49 @@
+site_name: Semaphore Mobile — Docs Home
+site_description: Client Documentation
+
+theme:
+  name: material
+  logo: img/sema-red-logo.png
+  favicon: img/sema-red-logo.png
+  features:
+    - navigation.sections
+    - navigation.tabs
+    - content.code.copy
+    - search.suggest
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+extra_css:
+  - styles/extra.css
+
+plugins:
+  - search
+
+extra:
+  copyright: "© 2025 Semaphore Mobile"
+
+nav:
+  - Home: index.md
+  - Laravel:
+      - Overview: laravel/architecture-overview.md
+      - Continuous Integration: laravel/continuous-integration.md
+      - Deployment: laravel/deployment.md
+      - Full Dev Cycle: laravel/dev-cycle.md
+      - Server Hosting: laravel/server-hosting.md
+      - Source Control: laravel/source-code-management.md
+  - Node.js:
+      - Overview: nodejs/index.md
+  - React Native:
+      - Overview: react-native/index.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
