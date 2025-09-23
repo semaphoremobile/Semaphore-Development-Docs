@@ -1,5 +1,6 @@
 site_name: Semaphore Mobile — Docs Home
 site_description: Client Documentation
+copyright: "© 2025 Semaphore Mobile"
 
 theme:
   name: material
