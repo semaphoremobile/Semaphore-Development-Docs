@@ -8,6 +8,7 @@ theme:
   features:
     - navigation.sections
     - navigation.tabs
+    - navigation.footer
     - content.code.copy
     - search.suggest
   palette:
@@ -28,11 +29,17 @@ plugins:
 
 extra:
   copyright: "© 2025 Semaphore Mobile"
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/semaphoremobile
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/semaphore-mobile-app-development
 
 nav:
   - Home: index.md
   - Laravel:
-      - Overview: laravel/architecture-overview.md
+      - Overview: laravel/index.md
+      - Architecture Overview: laravel/architecture-overview.md
       - Continuous Integration: laravel/continuous-integration.md
       - Deployment: laravel/deployment.md
       - Full Dev Cycle: laravel/dev-cycle.md

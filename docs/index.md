@@ -2,6 +2,6 @@
 
 Welcome! Choose a section:
 
-- **[Laravel](/laravel/architecture-overview)**
-- **[React Native](/react-native/)**
-- **[Node.js](/nodejs/)**
+- **[Laravel](laravel/index.md)**
+- **[React Native](react-native/index.md)**
+- **[Node.js](nodejs/index.md)**

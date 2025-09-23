@@ -1,6 +1,6 @@
 # Welcome
 
-This site contains documentation for our backend development architecture:
+This documentation is for Semaphore Mobile's backend development Laravel architecture:
 
 - High-level architecture: LAMP stack on Google Cloud / Amazon AWS / Microsoft Azure / Other
 - Deployment (SSH, Capistrano)
