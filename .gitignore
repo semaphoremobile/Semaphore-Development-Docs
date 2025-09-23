@@ -1,9 +1,25 @@
-# MkDocs build output
-/site/
-
-# Python venv
-.venv/
-
-# Python cache
+# Python / MkDocs
 __pycache__/
 *.pyc
+.env
+.venv
+*.egg-info/
+
+# MkDocs site output
+_site/
+**/site/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Copied per-site from shared/
+home/docs/styles/extra.css
+laravel/docs/styles/extra.css
+react-native/docs/styles/extra.css
+nodejs/docs/styles/extra.css
+
+home/docs/img/shared/
+laravel/docs/img/shared/
+react-native/docs/img/shared/
+nodejs/docs/img/shared/

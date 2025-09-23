@@ -1,0 +1,15 @@
+site_name: "Semaphore Mobile — Docs Home"
+site_url: "https://docs.semaphoremobile.com/"
+theme:
+  name: material
+  logo: img/shared/sema-red-logo.png
+  favicon: img/shared/sema-red-logo.png  
+  features:
+    - navigation.sections
+    - search.suggest
+nav:
+  - Home: index.md
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true

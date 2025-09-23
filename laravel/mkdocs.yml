@@ -1,9 +1,10 @@
-site_name: Semaphore Mobile Development Architecture — 2025
+site_name: Semaphore Mobile — Laravel
+site_url: "https://docs.semaphoremobile.com/laravel/"
 site_description: Client Documentation
 theme:
   name: material
-  logo: img/sema-red-logo.png
-  favicon: img/sema-red-logo.png
+  logo: img/shared/sema-red-logo.png
+  favicon: img/shared/sema-red-logo.png
   features:
     - navigation.sections
     - navigation.tabs
@@ -21,7 +22,7 @@ theme:
 plugins:
   - search
 nav:
-  - Home: index.md
+  - Overview: index.md
   - Architecture: architecture-overview.md
   - Deployment: deployment.md
   - Source Control: source-code-management.md
@@ -32,3 +33,5 @@ markdown_extensions:
   - admonition
   - toc:
       permalink: true
+extra_css:
+  - styles/extra.css
